@@ -43,7 +43,7 @@
 		</div>
 	</div>
 </div>
-<script src="/javascripts/jsIndex.js"></script>
+<script src="javascripts/jsIndex.js"></script>
 
 </body>
 </html>
