@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
 h1 {
     text-align: center;
     color: red;
@@ -31,11 +35,11 @@ tr {
     color: white;
     font-weight: 30px;
     text-decoration: none;
-    padding: 1rem 3rem;
     text-align: center;
+    padding: 1rem 3rem;
     margin-top: 5px;
-    border: none;
     font-size: 1rem;
+    border-radius: 12px;
 
     &:hover {
         cursor: pointer;
@@ -51,9 +55,9 @@ tr {
     padding: 1rem 3rem;
     text-align: center;
     margin-top: 5px;
-    border: none;
     font-size: 1rem;
-
+    border-radius: 12px;
+    
     &:hover {
         cursor: pointer;
         background-color: purple;
@@ -68,12 +72,12 @@ tr {
     padding: 1rem 3rem;
     text-align: center;
     margin-top: 5px;
-    border: none;
     font-size: 1rem;
-
+    border-radius: 12px;
+    
     &:hover {
         cursor: pointer;
-        background-color: purple;
+            background-color: purple;
     }
 }
 

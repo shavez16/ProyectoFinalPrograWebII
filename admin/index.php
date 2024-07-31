@@ -21,7 +21,7 @@ $resultado = mysqli_query($base, $query);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Administrar publicaciones</title>
     <link rel="stylesheet" href="../estilos/styleadmin.css">
 </head>
 
@@ -29,7 +29,7 @@ $resultado = mysqli_query($base, $query);
     <h1>Administrar tus publicaciones</h1>
     
     <div class="contenedor">
-    <a class="boton-verde" href="../admin/blog/crear.php">Nueva publicacion</a>
+    <a class="boton-verde" href="../admin/blog/crear.php">Nueva publicación</a>
         <table class="tabla1">
             <thead>
                 <tr>
