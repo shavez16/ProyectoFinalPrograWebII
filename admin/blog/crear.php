@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>crear publicacion</title>
+    <title>Crear publicación</title>
     <link rel="stylesheet" href="../../estilos/styleadmin.css">
 </head>
 <body>

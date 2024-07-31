@@ -34,7 +34,7 @@ $resultado = mysqli_query($base, $query);
             <thead>
                 <tr>
                     <th>Id</th>
-                    <th>Descripcion</th>
+                    <th>Descripción</th>
                     <th>Imagen</th>
                     <th>Acciones</th>
                 </tr>
