@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/estilos/estiloIndex.css">
+    <link rel="stylesheet" href="estilos/estiloIndex.css">
 </head>
 <body>
     <h2>Proyecto Final Grupo #2 Programacion Web II</h2>
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		<form action="#"> 
+		<form action="#">
 			<h1>Crea una nueva cuenta</h1>
 			<input type="text" placeholder="Name" />
 			<input type="email" placeholder="Email" />
