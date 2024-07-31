@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/estilos/estiloIndex.css">
+    <link rel="stylesheet" href="estilos/estiloIndex.css">
 </head>
 <body>
     <h2>Proyecto Final Grupo #2 Programacion Web II</h2>
@@ -43,7 +43,7 @@
 		</div>
 	</div>
 </div>
-<script src="/javascripts/jsIndex.js"></script>
+<script src="javascripts/jsIndex.js"></script>
 
 </body>
 </html>
