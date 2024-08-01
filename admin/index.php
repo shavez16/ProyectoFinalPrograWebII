@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php elseif (intval($result) === 3) : ?>
         <p class="alerta exito">Registro Eliminado Correctamente</p>
     <?php endif; ?>
-    <a class="boton-verde" href="../admin/blog/crear.php">Nueva publicacion</a>
+    <a class="boton-nuevo" href="../admin/blog/crear.php">+ Nueva publicacion</a>
         <table class="tabla1">
             <thead>
                 <tr class="encabezado">
@@ -84,9 +84,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <td> 
                             <form method="POST" class="w-100">
                             <input type="hidden" name="id" value="<?php echo $publicacion['id']; ?>">
-                            <button class="boton-rojo" type="submit" value="Eliminar">Eliminar</button>
+                            <button class="boton-eliminar" type="submit" value="Eliminar">✕ Eliminar</button>
                             </form> 
-                            <a class="boton-anaranjado" href="../admin/blog/actualizar.php?id=<?php echo $publicacion["id"]; ?>">Actualizar</a>
+                            <a class="boton-actualizar" href="../admin/blog/actualizar.php?id=<?php echo $publicacion["id"]; ?>">↻ Actualizar</a>
                         </td>
                     </tr>
                 <?php endwhile; ?>

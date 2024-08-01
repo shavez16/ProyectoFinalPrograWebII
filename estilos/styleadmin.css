@@ -1,13 +1,22 @@
-body{
-    background-color:darkseagreen;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
 }
-.formulario{
+
+body {
+    background: #f6f5f7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario {
     padding-top: 2rem;
 }
 
 h1 {
     text-align: center;
-    color: red;
+    font-weight: bold;
+	margin: 0;
 }
 
 .tabla1 {
@@ -17,38 +26,53 @@ h1 {
 
 }
 
-thead {
-    background-color: green;
-}
-
 th {
     color: white;
     padding: 1rem;
-    border: 1px solid gray;
-    
-}
-.encabezado{
     background-color: green;
 }
+
+/* .encabezado {
+    background-color: green;
+} */
+
 tr {
-    background-color: cyan;
+    background-color: #ffffff;
     text-align: center;
     color: black;
-    padding: 1rem;
-    font-size: 1.5rem;
-    
+    font-size: 1rem;
 }
+
 #tabla1 tr:nth-child(even) {
     background-color: #f2f2f2f2;
 }
 
-.boton-anaranjado {
+.boton-nuevo {
+    background-color: green;
+    color: white;
+    font-weight: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-left: 80%;
+    font-size: 1rem;
+    border-radius: 12px;
+    border: 1px solid black;
+
+    &:hover {
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: purple;
+    }
+}
+
+.boton-actualizar {
     background-color: orange;
     color: white;
     font-weight: 30px;
     text-decoration: none;
     text-align: center;
-    padding: 1rem 3rem;
+    padding: 1rem 1.5rem;
     margin-top: 5px;
     font-size: 1rem;
     border-radius: 12px;
@@ -60,17 +84,17 @@ tr {
     }
 }
 
-.boton-rojo {
+.boton-eliminar {
     background-color: red;
     color: white;
     font-weight: 30px;
     text-decoration: none;
-    padding: 1rem 3rem;
     text-align: center;
-    margin-top: 5px;
+    padding: 0.8rem 1.5rem;
+    margin: 3px;
     font-size: 1rem;
     border-radius: 12px;
-    
+
     &:hover {
         transition-duration: 0.4s;
         cursor: pointer;
@@ -78,17 +102,18 @@ tr {
     }
 }
 
-.boton-verde {
+.boton-guardar {
     background-color: green;
     color: white;
     font-weight: 30px;
     text-decoration: none;
-    padding: 1rem 3rem;
     text-align: center;
-    margin-top: 5px;
+    padding: 1rem 2rem;
+    margin: 3px;
     font-size: 1rem;
     border-radius: 12px;
-    
+    border: 1px solid black;
+
     &:hover {
         transition-duration: 0.4s;
         cursor: pointer;
@@ -99,7 +124,6 @@ tr {
 img {
     width: 5rem;
 }
-
 
 label {
     font-weight: 5px;
@@ -123,7 +147,7 @@ legend {
     color: #565656;
 }
 
-.contenedor{
+.contenedor {
     padding: 0 10rem 0 10rem;
 }
 
@@ -133,16 +157,21 @@ legend {
     color: white;
     font-weight: 5px;
     text-transform: uppercase;
-    margin: 1rem 0;
+    margin: 1rem 0 2rem 0;
+
+    &:hover {
+        background-color: #0e960e;
+    }
 }
 
 .error {
     background-color: red;
 }
+
 .exito {
     background-color: green;
 }
 
-.w-100{
+.w-100 {
     display: inline;
 }

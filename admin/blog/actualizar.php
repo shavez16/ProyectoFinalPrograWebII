@@ -112,7 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <div class="contenedor">
         <h1>Actualizar</h1>
-        <a href="/admin" class="boton-verde">Volver</a>
+        <a href="/admin" class="boton-guardar">↩ Volver</a>
 
         <?php foreach ($errores as $error) : ?>
             <div class="alerta error">
@@ -123,15 +123,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <form method="POST" enctype="multipart/form-data" class="formulario ">
             <fieldset>
-                <legend>Actualizar publicacion</legend>
+                <legend>Actualizar publicación</legend>
                 <label for="descripcion">Descripcion</label>
                 <input type="text" id="descripcion" name="descripcion" placeholder="Escribe una descripcion" value="<?php echo $descripcion ?>">
                 <label for="imagen">Imagen</label>
                 <input type="file" accept="image/jpeg, image/png" name="imagen">
             </fieldset>
             <fieldset>
-                <legend>Guardar</legend>
-                <input type="submit" value="Actualizar" class="boton-verde">
+                <legend>Actualizar</legend>
+                <input type="submit" value="↻ Actualizar" class="boton-actualizar">
             </fieldset>
         </form>
     </div>
