@@ -16,7 +16,7 @@ body {
 h1 {
     text-align: center;
     font-weight: bold;
-	margin: 0;
+	margin: 2rem 0;
 }
 
 .tabla1 {
@@ -76,11 +76,13 @@ tr {
     margin-top: 5px;
     font-size: 1rem;
     border-radius: 12px;
+    border: 1px solid black;
 
     &:hover {
         transition-duration: 0.4s;
         cursor: pointer;
         background-color: purple;
+        border: 1px solid #0dd4c0;
     }
 }
 
@@ -118,6 +120,7 @@ tr {
         transition-duration: 0.4s;
         cursor: pointer;
         background-color: purple;
+        border: 1px solid #0dd4c0;
     }
 }
 
