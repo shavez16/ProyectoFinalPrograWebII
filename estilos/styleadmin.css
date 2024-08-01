@@ -1,5 +1,8 @@
-body {
-    font-family: 'Montserrat', sans-serif;;
+body{
+    background-color:darkseagreen;
+}
+.formulario{
+    padding-top: 2rem;
 }
 
 h1 {
@@ -21,13 +24,22 @@ thead {
 th {
     color: white;
     padding: 1rem;
+    border: 1px solid gray;
+    
 }
-
+.encabezado{
+    background-color: green;
+}
 tr {
+    background-color: cyan;
     text-align: center;
     color: black;
     padding: 1rem;
     font-size: 1.5rem;
+    
+}
+#tabla1 tr:nth-child(even) {
+    background-color: #f2f2f2f2;
 }
 
 .boton-anaranjado {
@@ -113,4 +125,24 @@ legend {
 
 .contenedor{
     padding: 0 10rem 0 10rem;
+}
+
+.alerta {
+    padding: .5rem;
+    text-align: center;
+    color: white;
+    font-weight: 5px;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+.error {
+    background-color: red;
+}
+.exito {
+    background-color: green;
+}
+
+.w-100{
+    display: inline;
 }
