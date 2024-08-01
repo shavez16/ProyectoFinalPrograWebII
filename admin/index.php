@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Administrar publicaciones</title>
     <link rel="stylesheet" href="../estilos/styleadmin.css">
 </head>
 
@@ -66,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <thead>
                 <tr class="encabezado">
                     <th>Id</th>
-                    <th>Descripcion</th>
+                    <th>Descripción</th>
                     <th>Imagen</th>
                     <th>Creado</th>
                     <th>Acciones</th>
