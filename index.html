@@ -13,21 +13,22 @@
     <h2>Proyecto Final Grupo #2 Programacion Web II</h2>
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		<form action="#">
+		<form method="POST" action="php/registrar.php">
 			<h1>Crea una nueva cuenta</h1>
-			<input type="text" placeholder="Name" />
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<button>Sign Up</button>
+			<input type="email" placeholder="Correo Electronico" name="email" />
+			<input type="text" placeholder="Usuario" name="username"/>
+			<input type="password" placeholder="Contraseña" name="password"/>
+			<button type="submit" name="accion" value="Signup">Sign Up</button>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
-		<form action="#">
+		<form method="POST" action="php/ingresar.php">
 			<h1>Iniciar Sesion</h1>
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<a href="#">Olvidó su contraseña</a>
-			<button>Ingresar</button>
+			 <input type="email" placeholder="Correo Electronico" name="email" /> 
+			<!-- <input type="text" placeholder="Usuario" name="username"/> -->
+			<input type="password" placeholder="Contraseña" name="password"/>
+			<!-- <a href="#">Olvidó su contraseña</a> -->
+			<button type="submit" name="accion" value="Signin">Ingresar</button>
 		</form>
 	</div>
 	<div class="overlay-container">
