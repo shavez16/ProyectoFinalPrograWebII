@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.boton-crear,
+.boton-cerrar-sesion {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    float: right; /* Agrega esta línea para alinear los botones a la derecha */
+}
+
+.boton-crear {
+    background-color: #4CAF50;
+}
+
+.boton-crear:hover {
+    background-color: #45a049;
+}
+
+.boton-cerrar-sesion {
+    background-color: #f44336;
+}
+
+.boton-cerrar-sesion:hover {
+    background-color: #d32f2f;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.mensaje {
+    color: green;
+    margin-bottom: 20px;
+}
+
+.publicaciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.publicacion {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: calc(33% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.publicacion img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.publicacion p {
+    margin: 10px 0;
+}
+
+.publicacion small {
+    color: #777;
+}
