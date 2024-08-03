@@ -14,35 +14,10 @@ header {
     align-items: center;
 }
 
+
 header h1 {
     margin: 0;
 }
-
-.boton-crear,
-.boton-cerrar-sesion {
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    color: white;
-    float: right; /* Agrega esta línea para alinear los botones a la derecha */
-}
-
-.boton-crear {
-    background-color: #4CAF50;
-}
-
-.boton-crear:hover {
-    background-color: #45a049;
-}
-
-.boton-cerrar-sesion {
-    background-color: #f44336;
-}
-
-.boton-cerrar-sesion:hover {
-    background-color: #d32f2f;
-}
-
 
 main {
     padding: 20px;
